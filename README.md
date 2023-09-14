@@ -1,11 +1,11 @@
-About azure-data-tables
-=======================
+About azure-data-tables-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-data-tables-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/table/azure-table
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-data-tables-feedstock/blob/main/LICENSE.txt)
 
 Summary: Microsoft Azure Azure Data Tables Client Library for Python
 
