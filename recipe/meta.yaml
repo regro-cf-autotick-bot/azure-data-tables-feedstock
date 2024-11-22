@@ -1,13 +1,13 @@
 {% set name = "azure-data-tables" %}
-{% set version = "12.4.4" %}
+{% set version = "12.6.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/azure-data-tables-{{ version }}.tar.gz
-  sha256: 1d68c8401598994e37a52c4a2dcc31e39104c67d748de124c98f47a5bca7d2fc
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: e0d5598113855f9114fd7671623d35509f83772970cfdc597901b35f42dc3134
 
 build:
   noarch: python
